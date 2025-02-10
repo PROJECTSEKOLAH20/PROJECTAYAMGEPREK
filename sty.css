@@ -8,6 +8,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: rgb(0, 0, 0);
 }
 
 @font-face {
@@ -23,25 +24,59 @@ body {
 
 .upper {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   margin: 5px;
-  background-color: #3fa555;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+
+  text-align: center;
+  z-index: 1000;
 }
 .logo {
-  background-color: #3fa555;
+  background-color: #ffffff;
 }
 
-.h1 {
+.sampul {
+  position: relative;
+  display: inline-block;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+}
+.sampul img {
+  width: 1300px;
+  height: 400px;
+  image-rendering: crisp-edges;
+}
+.GambarSampul {
+  border-radius: 20px;
+}
+
+.text-sampul {
+  position: absolute;
+  right: 40%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+
+  color: rgb(0, 0, 0);
+
+  font-size: 20px;
+  border-radius: 5px;
 }
 
 .h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px;
 }
 .ul-atas {
   display: flex;
@@ -54,7 +89,7 @@ body {
   padding: 10px;
   margin: 5px;
   font-size: 20px;
-  justify-content: space-evenly;
+  justify-content: end;
 }
 
 .a-navbar {
@@ -79,10 +114,26 @@ body {
   width: 300px;
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px grey;
   overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease;
+}
+.card2 {
+  width: 300px;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px grey;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.card2:hover {
+  transform: translateY(-20px);
+}
+.promo {
+  text-decoration: none;
 }
 
 .card:hover {
@@ -122,7 +173,7 @@ body {
 .Button {
   width: 75px;
   border-radius: 15px;
-  background-color: #64cf69;
+  background-color: rgb(64, 211, 89);
   padding: 10px;
   text-decoration: none;
   align-items: center;
@@ -130,13 +181,13 @@ body {
   justify-content: center;
 }
 .Button:hover {
-  background-color: rgb(64, 211, 89);
+  background-color: #248529;
   transition: 0.5s ease-in-out;
   transition-delay: 0.1s;
 }
 
 .main {
-  background-color: #3fa555;
+  background-color: #ffffff;
 }
 
 .footer {
