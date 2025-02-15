@@ -292,3 +292,74 @@ body {
   font-size: 16px;
   color: #000000;
 }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+  margin: 15px;
+}
+
+.card-menu {
+  border-radius: 8px;
+  border: 1px solid #333;
+  width: 400px;
+  height: 180px;
+  display: flex;
+  justify-content: end;
+
+  transition: transfrom 0.3s ease;
+
+  position: relative;
+  display: inline-block;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.img-menu img {
+  width: auto;
+  height: auto;
+  image-rendering: crisp-edges;
+}
+
+.card-menu:hover {
+  transform: scale(1.1);
+  transition-delay: 0.1s;
+  transition: 0.35s ease-in-out;
+}
+
+.img-menu {
+  border-radius: 8px;
+  width: 220px;
+  height: 140px;
+  margin: 10px;
+}
+
+.text-menu {
+  border-radius: 5px;
+  width: 65px;
+  background-color: white;
+  position: absolute;
+  right: 3%;
+  bottom: 13%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 2.5px;
+}
+
+.menu-content {
+  padding-bottom: 70px;
+  margin-right: 50px;
+}
+
+.menu-title {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.menu-price {
+  font-size: 16px;
+}
