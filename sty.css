@@ -204,19 +204,50 @@ body {
   padding: 5px;
 }
 
+.daftar {
+  margin-left: 100px;
+  text-decoration: none;
+}
+.daftar2 {
+  margin-left: 50px;
+}
+
+.sign {
+  width: 75px;
+  border-radius: 30px;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  background-color: brown;
+  padding: 15px;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+.sign:hover {
+  transform: scale(1.1);
+  background-color: rgba(179, 103, 52, 0.692);
+  color: white;
+  transition: 0.5 ease-in-out;
+  transition-delay: 0.1s;
+}
+
 .Button {
   width: 75px;
+  font-size: 16px;
   border-radius: 15px;
-  background-color: rgb(64, 211, 89);
-  padding: 10px;
+  background-color: brown;
+  padding: 15px;
+  color: white;
   text-decoration: none;
   align-items: center;
   display: flex;
   justify-content: center;
 }
 .Button:hover {
-  background-color: #248529;
+  background-color: rgba(179, 103, 52, 0.692);
   transition: 0.5s ease-in-out;
+  color: black;
   transition-delay: 0.1s;
 }
 
