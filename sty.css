@@ -482,3 +482,7 @@ body {
   height: 340px;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  /* untuk HP */
+}
