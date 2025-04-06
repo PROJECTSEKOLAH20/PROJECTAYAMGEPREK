@@ -7,22 +7,45 @@
       type="png"
       href="logo_final-removebg-preview.png"
     />
+    <link rel="stylesheet" href="sty.css" />
   </head>
-  <body>
-    <h1>Silahkan Masukan Akun Anda</h1>
+  <body style="background-color: brown">
+    <div class="intisign">
+      <div class="signup">
+        <h1 style="margin: 20px">Daftar Akun</h1>
 
-    <div>
-      <label for="">Masukan Email Anda</label>
-      <input type="email" placeholder="Example@gmail.com" />
+        <div class="sign-edit">
+          <input type="text" name="username" placeholder="Username" required />
+        </div>
+
+        <div class="sign-edit">
+          <input type="email" name="email" placeholder="Example@gmail.com" />
+        </div>
+
+        <div class="sign-edit">
+          <input
+            type="password"
+            name="password"
+            placeholder="Masukan Password"
+            required
+          />
+        </div>
+
+        <div class="sign-edit">
+          <input
+            type="password"
+            placeholder="Verifikasi Password"
+            name="password"
+          />
+        </div>
+
+        <a href="signin.html" class="signbutt">Masuk</a>
+
+        <div>Sudah Ada Akun? <a href="signin.html" class="promo">Masuk</a></div>
+        <div style="margin: 5px">
+          <a href="index.html" class="signbutt">Back To Home</a>
+        </div>
+      </div>
     </div>
-
-    <p>
-      Masukan Password
-      <input type="password" placeholder="Masukan Password" />
-    </p>
-
-    <button type="submit">Masuk</button>
-
-    <p>Belum Punya Akun? <a href="sign.html" class="promo">Daftar</a></p>
   </body>
 </html>
