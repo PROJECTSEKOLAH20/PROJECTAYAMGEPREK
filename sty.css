@@ -217,7 +217,7 @@ body {
   width: 75px;
   border-radius: 30px;
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   background-color: brown;
   padding: 15px;
@@ -228,7 +228,7 @@ body {
 .sign:hover {
   transform: scale(1.1);
   background-color: rgba(179, 103, 52, 0.692);
-  color: white;
+  color: rgb(0, 0, 0);
   transition: 0.5 ease-in-out;
   transition-delay: 0.1s;
 }
